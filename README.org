@@ -1,0 +1,20 @@
+* Django + Bootstrap5
+* Autor - Emil Tomczyk
+
+* Uruchomienie
+#+Begin_SRC sh
+  python3 -m venv venv
+  source venv/bin/activate
+
+  cd zal
+  pip install -r requirements.txt
+  python3 manage.py runserver
+#+END_SRC
+
+Strona dostępna pod adresem http://127.0.0.1:8000/
+
+Panel administratora dostępny jest pod adresem http://127.0.0.1:8000/admin/
+
+Dane do logowania:
+admin
+admin
